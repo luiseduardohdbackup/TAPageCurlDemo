@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3B4E7B1598F6C2007C9D36 /* TAUnderCurlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3B4E7A1598F6C2007C9D36 /* TAUnderCurlViewController.m */; };
+		AC7005F515AB8F2A008FAE29 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7005F415AB8F2A008FAE29 /* MapKit.framework */; };
+		ACAAF2051599FD2B00BDF72F /* UIButtonBarPageCurlSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAAF2031599FD2B00BDF72F /* UIButtonBarPageCurlSelected.png */; };
+		ACAAF2061599FD2B00BDF72F /* UIButtonBarPageCurlSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAAF2041599FD2B00BDF72F /* UIButtonBarPageCurlSelected@2x.png */; };
+		ACCB29C6156AA59F00C28B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCB29C5156AA59F00C28B5E /* UIKit.framework */; };
+		ACCB29C8156AA59F00C28B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCB29C7156AA59F00C28B5E /* Foundation.framework */; };
+		ACCB29D0156AA59F00C28B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACCB29CE156AA59F00C28B5E /* InfoPlist.strings */; };
+		ACCB29D2156AA59F00C28B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB29D1156AA59F00C28B5E /* main.m */; };
+		ACCB29D6156AA59F00C28B5E /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB29D5156AA59F00C28B5E /* TAAppDelegate.m */; };
+		ACCB29D9156AA59F00C28B5E /* TAContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB29D8156AA59F00C28B5E /* TAContentViewController.m */; };
+		ACCB29DC156AA59F00C28B5E /* TAContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCB29DA156AA59F00C28B5E /* TAContentViewController.xib */; };
+		ACD0E2331594CFB600CB395F /* TAContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD0E2321594CFB600CB395F /* TAContainerViewController.m */; };
+		ACD0E2471594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD0E2451594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque.png */; };
+		ACD0E2481594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD0E2461594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3B4E7A1598F6C2007C9D36 /* TAUnderCurlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAUnderCurlViewController.m; path = /Users/tjarnold/Desktop/TAPageCurlDemo/TAPageCurlDemo/TAUnderCurlViewController.m; sourceTree = "<absolute>"; };
+		AC7005F415AB8F2A008FAE29 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC70060D15AB9291008FAE29 /* TAUnderCurlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAUnderCurlViewController.h; sourceTree = "<group>"; };
+		ACAAF2031599FD2B00BDF72F /* UIButtonBarPageCurlSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPageCurlSelected.png; sourceTree = "<group>"; };
+		ACAAF2041599FD2B00BDF72F /* UIButtonBarPageCurlSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarPageCurlSelected@2x.png"; sourceTree = "<group>"; };
+		ACCB29C1156AA59F00C28B5E /* TAPageCurlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAPageCurlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCB29C5156AA59F00C28B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACCB29C7156AA59F00C28B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACCB29CF156AA59F00C28B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACCB29D1156AA59F00C28B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACCB29D3156AA59F00C28B5E /* TAPageCurlDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAPageCurlDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ACCB29D4156AA59F00C28B5E /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		ACCB29D5156AA59F00C28B5E /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		ACCB29D7156AA59F00C28B5E /* TAContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAContentViewController.h; sourceTree = "<group>"; };
+		ACCB29D8156AA59F00C28B5E /* TAContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAContentViewController.m; sourceTree = "<group>"; };
+		ACCB29DB156AA59F00C28B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TAContentViewController.xib; sourceTree = "<group>"; };
+		ACD0E2311594CFB600CB395F /* TAContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAContainerViewController.h; sourceTree = "<group>"; };
+		ACD0E2321594CFB600CB395F /* TAContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAContainerViewController.m; sourceTree = "<group>"; };
+		ACD0E2451594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPageCurlBlackOpaque.png; sourceTree = "<group>"; };
+		ACD0E2461594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarPageCurlBlackOpaque@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACCB29BE156AA59F00C28B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7005F515AB8F2A008FAE29 /* MapKit.framework in Frameworks */,
+				ACCB29C6156AA59F00C28B5E /* UIKit.framework in Frameworks */,
+				ACCB29C8156AA59F00C28B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACCB29B6156AA59E00C28B5E = {
+			isa = PBXGroup;
+			children = (
+				ACCB29CB156AA59F00C28B5E /* TAPageCurlDemo */,
+				ACCB29C4156AA59F00C28B5E /* Frameworks */,
+				ACCB29C2156AA59F00C28B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACCB29C2156AA59F00C28B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB29C1156AA59F00C28B5E /* TAPageCurlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCB29C4156AA59F00C28B5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7005F415AB8F2A008FAE29 /* MapKit.framework */,
+				ACCB29C5156AA59F00C28B5E /* UIKit.framework */,
+				ACCB29C7156AA59F00C28B5E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACCB29CB156AA59F00C28B5E /* TAPageCurlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB29D4156AA59F00C28B5E /* TAAppDelegate.h */,
+				ACCB29D5156AA59F00C28B5E /* TAAppDelegate.m */,
+				ACD0E2311594CFB600CB395F /* TAContainerViewController.h */,
+				ACD0E2321594CFB600CB395F /* TAContainerViewController.m */,
+				ACCB29D7156AA59F00C28B5E /* TAContentViewController.h */,
+				ACCB29D8156AA59F00C28B5E /* TAContentViewController.m */,
+				ACCB29DA156AA59F00C28B5E /* TAContentViewController.xib */,
+				AC70060D15AB9291008FAE29 /* TAUnderCurlViewController.h */,
+				AC3B4E7A1598F6C2007C9D36 /* TAUnderCurlViewController.m */,
+				ACD7F5931577D20500E24792 /* Resources */,
+				ACCB29CC156AA59F00C28B5E /* Supporting Files */,
+			);
+			path = TAPageCurlDemo;
+			sourceTree = "<group>";
+		};
+		ACCB29CC156AA59F00C28B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB29CE156AA59F00C28B5E /* InfoPlist.strings */,
+				ACCB29D1156AA59F00C28B5E /* main.m */,
+				ACCB29D3156AA59F00C28B5E /* TAPageCurlDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD7F5931577D20500E24792 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACAAF2031599FD2B00BDF72F /* UIButtonBarPageCurlSelected.png */,
+				ACAAF2041599FD2B00BDF72F /* UIButtonBarPageCurlSelected@2x.png */,
+				ACD0E2451594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque.png */,
+				ACD0E2461594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACCB29C0156AA59F00C28B5E /* TAPageCurlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCB29DF156AA59F00C28B5E /* Build configuration list for PBXNativeTarget "TAPageCurlDemo" */;
+			buildPhases = (
+				ACCB29BD156AA59F00C28B5E /* Sources */,
+				ACCB29BE156AA59F00C28B5E /* Frameworks */,
+				ACCB29E2156AA5B900C28B5E /* ShellScript */,
+				ACCB29BF156AA59F00C28B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAPageCurlDemo;
+			productName = Sudoku;
+			productReference = ACCB29C1156AA59F00C28B5E /* TAPageCurlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACCB29B8156AA59E00C28B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "The University of Arizona";
+			};
+			buildConfigurationList = ACCB29BB156AA59E00C28B5E /* Build configuration list for PBXProject "TAPageCurlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACCB29B6156AA59E00C28B5E;
+			productRefGroup = ACCB29C2156AA59F00C28B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACCB29C0156AA59F00C28B5E /* TAPageCurlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACCB29BF156AA59F00C28B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCB29D0156AA59F00C28B5E /* InfoPlist.strings in Resources */,
+				ACCB29DC156AA59F00C28B5E /* TAContentViewController.xib in Resources */,
+				ACD0E2471594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque.png in Resources */,
+				ACD0E2481594DF7F00CB395F /* UIButtonBarPageCurlBlackOpaque@2x.png in Resources */,
+				ACAAF2051599FD2B00BDF72F /* UIButtonBarPageCurlSelected.png in Resources */,
+				ACAAF2061599FD2B00BDF72F /* UIButtonBarPageCurlSelected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACCB29E2156AA5B900C28B5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash    \nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCB29BD156AA59F00C28B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCB29D2156AA59F00C28B5E /* main.m in Sources */,
+				ACCB29D6156AA59F00C28B5E /* TAAppDelegate.m in Sources */,
+				ACCB29D9156AA59F00C28B5E /* TAContentViewController.m in Sources */,
+				ACD0E2331594CFB600CB395F /* TAContainerViewController.m in Sources */,
+				AC3B4E7B1598F6C2007C9D36 /* TAUnderCurlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACCB29CE156AA59F00C28B5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCB29CF156AA59F00C28B5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACCB29DA156AA59F00C28B5E /* TAContentViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCB29DB156AA59F00C28B5E /* en */,
+			);
+			name = TAContentViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACCB29DD156AA59F00C28B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACCB29DE156AA59F00C28B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Timothy Arnold";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Timothy Arnold";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C71EBF91-3B4B-489A-8C07-EDF13EDF5DFC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C71EBF91-3B4B-489A-8C07-EDF13EDF5DFC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACCB29E0156AA59F00C28B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoku/TAPageCurlDemo-Prefix.pch";
+				INFOPLIST_FILE = "Sudoku/TAPageCurlDemo-Info.plist";
+				PRODUCT_NAME = TAPageCurlDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACCB29E1156AA59F00C28B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoku/TAPageCurlDemo-Prefix.pch";
+				INFOPLIST_FILE = "Sudoku/TAPageCurlDemo-Info.plist";
+				PRODUCT_NAME = TAPageCurlDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACCB29BB156AA59E00C28B5E /* Build configuration list for PBXProject "TAPageCurlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCB29DD156AA59F00C28B5E /* Debug */,
+				ACCB29DE156AA59F00C28B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCB29DF156AA59F00C28B5E /* Build configuration list for PBXNativeTarget "TAPageCurlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCB29E0156AA59F00C28B5E /* Debug */,
+				ACCB29E1156AA59F00C28B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACCB29B8156AA59E00C28B5E /* Project object */;
+}
