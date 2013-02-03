@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6A5F0B16BF2FEC005E1DEE /* TAContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6A5F0A16BF2FEC005E1DEE /* TAContentViewController.xib */; };
 		AC87C38615B5C8B4003645D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC87C38515B5C8B4003645D2 /* UIKit.framework */; };
 		AC87C38815B5C8B4003645D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC87C38715B5C8B4003645D2 /* Foundation.framework */; };
 		AC87C38A15B5C8B4003645D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC87C38915B5C8B4003645D2 /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC6A5F0A16BF2FEC005E1DEE /* TAContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAContentViewController.xib; sourceTree = "<group>"; };
 		AC87C38115B5C8B4003645D2 /* TAPageCurlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAPageCurlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87C38515B5C8B4003645D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC87C38715B5C8B4003645D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 				AC87C3AB15B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png */,
 				AC87C3AC15B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png */,
 				DB29824C1647CD77000CA3E6 /* TAContainerViewController.xib */,
+				AC6A5F0A16BF2FEC005E1DEE /* TAContentViewController.xib */,
 				AC87C38C15B5C8B4003645D2 /* Supporting Files */,
 			);
 			path = TAPageCurlDemo;
@@ -182,6 +185,7 @@
 				AC87C3B015B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png in Resources */,
 				AC87C3B115B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png in Resources */,
 				DB29824D1647CD77000CA3E6 /* TAContainerViewController.xib in Resources */,
+				AC6A5F0B16BF2FEC005E1DEE /* TAContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
