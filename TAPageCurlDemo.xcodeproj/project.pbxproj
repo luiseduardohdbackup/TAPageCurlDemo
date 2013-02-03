@@ -21,6 +21,7 @@
 		AC87C3AF15B5C8DF003645D2 /* UIButtonBarPageCurlBlackOpaque@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC87C3AA15B5C8DF003645D2 /* UIButtonBarPageCurlBlackOpaque@2x.png */; };
 		AC87C3B015B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = AC87C3AB15B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png */; };
 		AC87C3B115B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC87C3AC15B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png */; };
+		DB29824D1647CD77000CA3E6 /* TAContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB29824C1647CD77000CA3E6 /* TAContainerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		AC87C3AA15B5C8DF003645D2 /* UIButtonBarPageCurlBlackOpaque@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarPageCurlBlackOpaque@2x.png"; sourceTree = "<group>"; };
 		AC87C3AB15B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPageCurlSelected.png; sourceTree = "<group>"; };
 		AC87C3AC15B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarPageCurlSelected@2x.png"; sourceTree = "<group>"; };
+		DB29824C1647CD77000CA3E6 /* TAContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TAContainerViewController.xib; path = ../TAContainerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				AC87C3AA15B5C8DF003645D2 /* UIButtonBarPageCurlBlackOpaque@2x.png */,
 				AC87C3AB15B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png */,
 				AC87C3AC15B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png */,
+				DB29824C1647CD77000CA3E6 /* TAContainerViewController.xib */,
 				AC87C38C15B5C8B4003645D2 /* Supporting Files */,
 			);
 			path = TAPageCurlDemo;
@@ -178,6 +181,7 @@
 				AC87C3AF15B5C8DF003645D2 /* UIButtonBarPageCurlBlackOpaque@2x.png in Resources */,
 				AC87C3B015B5C8DF003645D2 /* UIButtonBarPageCurlSelected.png in Resources */,
 				AC87C3B115B5C8DF003645D2 /* UIButtonBarPageCurlSelected@2x.png in Resources */,
+				DB29824D1647CD77000CA3E6 /* TAContainerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				AC87C39B15B5C8B4003645D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
